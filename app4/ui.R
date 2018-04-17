@@ -5,7 +5,7 @@ library(leaflet)
 
 fluidPage(
   
-  titlePanel("Grid layout with control widgets"),
+  titlePanel("Cities with population > 1 million"),
   
   leafletOutput("mymap"),
   hr(),
