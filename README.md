@@ -28,3 +28,11 @@ deployApp()
 See an example app here: [https://musa620.shinyapps.io/myshiny/](https://musa620.shinyapps.io/myshiny/)
 
 [Full instructions](https://shiny.rstudio.com/articles/shinyapps.html)
+
+
+Leaflet legend fix. Add the code below to your Shiny UI.
+```
+tags$style(type="text/css", "div.info.legend.leaflet-control br {clear: both;}"),
+```
+
+
