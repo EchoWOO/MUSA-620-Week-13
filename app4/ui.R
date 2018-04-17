@@ -10,13 +10,8 @@ fluidPage(
   leafletOutput("mymap"),
   hr(),
   fluidRow(
-    column(6,offset=1, 
-
-           uiOutput("selectCountry")
-    ),
-    column(5,
-           actionButton("recalc", "Generate new points")
-           
+    column(4,offset=4, 
+        uiOutput("selectCountry")
     )
   ),
   hr(),
